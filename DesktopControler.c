@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
 #define EFN "D:\\efn.pyw"
 #define FAS "D:\\inf.tsk"
 #define DAS "del D:\\efn.pyw /f /s /q"
@@ -52,7 +51,6 @@ int main()
         {
             system(DAS);
             system("cls");
-            Sleep(10);
             system("shutdown -L");
             system("cls");
             printf("\n\n--- Please wait for Log off ...");
